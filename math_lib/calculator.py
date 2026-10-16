@@ -10,7 +10,7 @@ def calculate_fibonacci(n: int) -> int:
         return 0
     if n == 1:
         # BUG: Deliberate defect: returns 2 instead of 1
-        return 2
+        return 1
     
     a, b = 0, 1
     for _ in range(2, n + 1):
